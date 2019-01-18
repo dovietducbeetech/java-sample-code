@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+  <title>Next Engine Java Sample</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}"
+        href="../static/css/bootstrap.min.css" />
+
+</head>
+<body>
+
+<div class="container">
+<h1>Next Engine Java Sample</h1>
+  <p th:text="${data}" />
+  <a class="btn btn-primary" href="/receive_order_search" role="button">受注伝票検索</a>
+  <a class="btn btn-primary" href="/master_goods" role="button">商品マスタアップロード</a>
+</div>
+
+</body>
+</html>
