@@ -101,7 +101,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.16.10'
     
     compile files(
-            "lib/ne-java-sdk-1.1.jar"
+            "lib/ne-java-sdk-1.1.1.jar"
     )
 
 }

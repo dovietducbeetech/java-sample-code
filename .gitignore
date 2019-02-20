@@ -31,7 +31,7 @@ bin/
 # Java
 *.class
 *.jar
-!lib/ne-java-sdk-1.1.jar
+!lib/ne-java-sdk-*.jar
 *.war
 *.ear
 
